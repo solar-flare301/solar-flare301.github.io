@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------HEADER----------------*/
+
+.header{
+    width: 100%;
+    background-color: #1a1a1a;
+    top: 0;
+    left: 0;
+}
+
+.nav__bar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding: 20px;
+    width: 95%;
+}
+
+/* LOGO */
+.nav__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+}
+.nav__logo{
+    font-size:35px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+/* BUTTONS */
+.nav__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    float: right;
+    height: 70px;
+}
+
+.nav__list{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__elements{
+    list-style: none;
+    font-family: "Oswald", sans-serif;
+    font-size:25px;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 0;
+}
+
+/* LINKS */
+
+.nav__home, .nav__learn, .nav__about{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease-in-out;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+a:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+    background-color: #474646;
+    color: rgb(206, 206, 206);
+}
+
+/*-----------------HEADER----------------*/
+

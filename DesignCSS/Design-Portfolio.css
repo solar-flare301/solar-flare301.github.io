@@ -1,0 +1,81 @@
+/*-----------------MAIN----------------*/
+
+/*TITLE AREA*/
+.main{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    margin: auto;
+}   
+
+.main__formation{
+    background-color: whitesmoke;
+    padding: 20px;
+    height: 40vh;
+    margin: auto;
+}
+
+.main__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+.main__h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    width: 40%;
+}
+
+/*INFORMATION AREA*/
+
+.main2{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    margin: auto;
+}
+
+.main__information{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+    direction: column;
+}
+
+.main__box{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main__image{
+    min-width: 700px;
+    max-width: 1000px;
+    height: 500px;
+    border:solid 1px #000;
+    background-color: rgb(216, 156, 65);
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    .h1{
+        height: 100px;
+    }
+}
+
+
+img{
+    width: 100%;
+}
+
+/*-----------------MAIN----------------*/
